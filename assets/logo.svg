@@ -1,0 +1,32 @@
+<svg width="102" height="20" viewBox="0 0 102 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&amp;display=swap');
+      .brand-text {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-weight: 900;
+        font-size: 16px;
+        letter-spacing: 0.12em;
+        fill: url(#grovix-grad);
+      }
+    </style>
+    <linearGradient id="grovix-grad" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#B8B8B8"/>
+    </linearGradient>
+    <radialGradient id="dot-glow" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFA26B"/>
+      <stop offset="60%" stop-color="#F66F14"/>
+      <stop offset="100%" stop-color="#D95000"/>
+    </radialGradient>
+    <filter id="glow-filter" x="80" y="-2" width="22" height="22" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <text x="0" y="15.5" class="brand-text">GROVIX</text>
+  <circle cx="94" cy="6" r="4.8" fill="url(#dot-glow)" stroke="#BA530E" stroke-width="0.3" filter="url(#glow-filter)"/>
+</svg>

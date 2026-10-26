@@ -1,4 +1,4 @@
-/* RedSun Interactive Enhancements */
+/* Grovix Interactive Enhancements */
 (function() {
   'use strict';
 

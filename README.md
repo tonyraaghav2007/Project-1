@@ -1,6 +1,6 @@
-# RedSun — Intelligent Solutions Powered by AI
+# Grovix — Intelligent Solutions Powered by AI
 
-A 1:1 responsive replica of the RedSun website template with dynamic animations, interactive cart, pricing, bento feature grid, and subpages.
+A 1:1 responsive replica of the Grovix website template with dynamic animations, interactive cart, pricing, bento feature grid, and subpages.
 
 ## Pages Included
 - **Home** (`/`)

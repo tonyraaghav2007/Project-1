@@ -1,4 +1,4 @@
-/* ===== RedSun — script.js ===== */
+/* ===== Grovix — script.js ===== */
 
 document.addEventListener('DOMContentLoaded', () => {
 
